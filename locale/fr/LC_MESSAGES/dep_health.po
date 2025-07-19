@@ -1,0 +1,246 @@
+# French translations for dep_health.
+# Copyright (C) 2025 The dep_health authors
+# This file is distributed under the same license as the dep_health project.
+# FULL NAME <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dep_health 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-19 12:39-0700\n"
+"PO-Revision-Date: 2025-07-19 12:39+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+
+msgid "Warning:"
+msgstr "Avertissement :"
+
+msgid "Error:"
+msgstr "Erreur :"
+
+msgid "Dependency Health Report"
+msgstr "Rapport de santé des dépendances"
+
+msgid "Scan Date: %Y-%m-%d %H:%M:%S"
+msgstr "Date du scan : %Y-%m-%d %H:%M:%S"
+
+msgid "Project Type: %s"
+msgstr "Type de projet : %s"
+
+msgid "Health Score: %s/100"
+msgstr "Score de santé : %s/100"
+
+msgid "Dependencies:"
+msgstr "Dépendances :"
+
+msgid "No known issues"
+msgstr "Aucun problème connu"
+
+msgid "Vulnerable:"
+msgstr "Vulnérable :"
+
+msgid "Severity:"
+msgstr "Gravité :"
+
+msgid "(Fix available)"
+msgstr "(Correctif disponible)"
+
+msgid "Fix %s:"
+msgstr "Corriger %s :"
+
+msgid "Update %s:"
+msgstr "Mettre à jour %s :"
+
+msgid "for latest features and security patches."
+msgstr "pour les dernières fonctionnalités et correctifs de sécurité."
+
+msgid "No immediate actions recommended. Your dependencies look healthy!"
+msgstr "Aucune action immédiate recommandée. Vos dépendances sont saines !"
+
+msgid "To save this report, use: `python dep_health.py scan --output report.json`"
+msgstr "Pour enregistrer ce rapport, utilisez : `python dep_health.py scan --output report.json`"
+
+msgid "For more options, run: `python dep_health.py --help`"
+msgstr "Pour plus d'options, exécutez : `python dep_health.py --help`"
+
+msgid "Fetching latest versions"
+msgstr "Récupération des dernières versions"
+
+msgid "pkg"
+msgstr "paquet"
+
+msgid "Could not determine latest version from GitHub releases."
+msgstr "Impossible de déterminer la dernière version des versions GitHub."
+
+msgid "You are running the latest version: v%s"
+msgstr "Vous utilisez la dernière version : v%s"
+
+msgid "A new version is available: %s (Current: v%s)"
+msgstr "Une nouvelle version est disponible : %s (Actuel : v%s)"
+
+msgid "Please update your tool by running: "
+msgstr "Veuillez mettre à jour votre outil en exécutant :"
+
+msgid "  git pull origin main"
+msgstr "  git pull origin main"
+
+msgid "Or download from: %s"
+msgstr "Ou télécharger depuis : %s"
+
+msgid "Scanning dependencies for %s project..."
+msgstr "Analyse des dépendances pour le projet %s..."
+
+msgid "'npm' command not found. Please ensure Node.js and npm are installed and in your system's PATH."
+msgstr "Commande 'npm' introuvable. Veuillez vous assurer que Node.js et npm sont installés et dans votre PATH."
+
+msgid "'pip-audit' command not found. Install it with 'pip install pip-audit' and ensure it's in your PATH."
+msgstr "Commande 'pip-audit' introuvable. Installez-la avec 'pip install pip-audit' et assurez-vous qu'elle est dans votre PATH."
+
+msgid "'composer' command not found. Please ensure Composer is installed and in your PATH."
+msgstr "Commande 'composer' introuvable. Veuillez vous assurer que Composer est installé et dans votre PATH."
+
+msgid "No recognized project file found (e.g., 'package.json', 'requirements.txt', 'composer.json') in the current directory."
+msgstr "Aucun fichier de projet reconnu trouvé (par exemple, 'package.json', 'requirements.txt', 'composer.json') dans le répertoire actuel."
+
+msgid "Error: '--repo-owner' and '--repo-name' are required for GitHub integration, or set them in config.ini."
+msgstr "Erreur : '--repo-owner' et '--repo-name' sont requis pour l'intégration GitHub, ou configurez-les dans config.ini."
+
+msgid "Error: GitHub Personal Access Token (GITHUB_TOKEN) not found. Set it as an environment variable or in config.ini."
+msgstr "Erreur : Jeton d'accès personnel GitHub (GITHUB_TOKEN) introuvable. Définissez-le comme variable d'environnement ou dans config.ini."
+
+msgid "Successfully created GitHub issue: %s"
+msgstr "Problème GitHub créé avec succès : %s"
+
+msgid "Network connection problem while trying to reach GitHub API. Check your internet connection."
+msgstr "Problème de connexion réseau lors de la tentative d'accès à l'API GitHub. Vérifiez votre connexion Internet."
+
+msgid "Request to GitHub API timed out. The server might be busy or your connection is slow."
+msgstr "La requête à l'API GitHub a expiré. Le serveur est peut-être occupé ou votre connexion est lente."
+
+msgid "Repository not found or incorrect owner/name. Please check --repo-owner and --repo-name."
+msgstr "Dépôt introuvable ou propriétaire/nom incorrect. Veuillez vérifier --repo-owner et --repo-name."
+
+msgid "Unauthorized. Please check if your GITHUB_TOKEN is valid and has 'repo' scope."
+msgstr "Non autorisé. Veuillez vérifier si votre GITHUB_TOKEN est valide et possède la portée 'repo'."
+
+msgid "Forbidden. Likely API rate limit or insufficient permissions. %s"
+msgstr "Interdit. Probablement une limite de débit de l'API ou des autorisations insuffisantes. %s"
+
+msgid "An unexpected error occurred while creating GitHub issue: %s"
+msgstr "Une erreur inattendue est survenue lors de la création du problème GitHub : %s"
+
+msgid "No specific details provided by audit."
+msgstr "Aucun détail spécifique fourni par l'audit."
+
+msgid "No known vulnerabilities."
+msgstr "Aucune vulnérabilité connue."
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Up-to-date"
+msgstr "À jour"
+
+msgid "Vulnerable"
+msgstr "Vulnérable"
+
+msgid "Outdated"
+msgstr "Obsolète"
+
+msgid "dependency health"
+msgstr "santé des dépendances"
+
+msgid "Generated Health Badge URL:"
+msgstr "URL du badge de santé généré :"
+
+msgid "Generated Health Badge Markdown (for README):"
+msgstr "Markdown du badge de santé généré (pour README) :"
+
+msgid "Checking for tool updates..."
+msgstr "Vérification des mises à jour de l'outil..."
+
+msgid "An unexpected error occurred during update check: %s"
+msgstr "Une erreur inattendue est survenue lors de la vérification des mises à jour : %s"
+
+msgid "Could not check for updates (network or API error): %s"
+msgstr "Impossible de vérifier les mises à jour (erreur réseau ou API) : %s"
+
+msgid "Scan failed: %s"
+msgstr "Échec du scan : %s"
+
+msgid "An unexpected fatal error occurred during scan: %s"
+msgstr "Une erreur fatale inattendue est survenue lors du scan : %s"
+
+msgid "Available commands"
+msgstr "Commandes disponibles"
+
+msgid "Scan your project's dependencies for health."
+msgstr "Scannez les dépendances de votre projet pour leur santé."
+
+msgid "Optional: Path to save the report as a JSON file (e.g., 'report.json')."
+msgstr "Optionnel : Chemin pour enregistrer le rapport en tant que fichier JSON (par exemple, 'report.json')."
+
+msgid "Optional: Create a GitHub issue with the report. Requires GITHUB_TOKEN env var or config.ini, --repo-owner, and --repo-name."
+msgstr "Optionnel : Créer un problème GitHub avec le rapport. Nécessite la variable d'environnement GITHUB_TOKEN ou config.ini, --repo-owner et --repo-name."
+
+msgid "GitHub repository owner (e.g., 'octocat'). Can also be set in config.ini."
+msgstr "Propriétaire du dépôt GitHub (par exemple, 'octocat'). Peut également être défini dans config.ini."
+
+msgid "GitHub repository name (e.g., 'Spoon-Knife'). Can also be set in config.ini."
+msgstr "Nom du dépôt GitHub (par exemple, 'Spoon-Knife'). Peut également être défini dans config.ini."
+
+msgid "Optional: Only scan production dependencies (skip 'devDependencies' for Node.js, 'require-dev' for PHP)."
+msgstr "Optionnel : Ne scanner que les dépendances de production (ignorer les 'devDependencies' pour Node.js, 'require-dev' pour PHP)."
+
+msgid "Optional: Comma-separated list of package names to ignore from scan and vulnerability checks (e.g., 'package-a,package-b')."
+msgstr "Optionnel : Liste de noms de paquets séparés par des virgules à ignorer du scan et des vérifications de vulnérabilité (par exemple, 'paquet-a,paquet-b')."
+
+msgid "Optional: Suppress most terminal output, only show final report or errors."
+msgstr "Optionnel : Supprimer la plupart des sorties du terminal, n'afficher que le rapport final ou les erreurs."
+
+msgid "Optional: Output only the JSON report to stdout, suppressing all other terminal output. Ideal for CI/CD piping."
+msgstr "Optionnel : N'afficher que le rapport JSON sur stdout, en supprimant toutes les autres sorties du terminal. Idéal pour le chaînage CI/CD."
+
+msgid "Optional: Generate a health score badge URL and Markdown for your README."
+msgstr "Optionnel : Générer une URL de badge de score de santé et un Markdown pour votre README."
+
+msgid "Check if a new version of the Dependency Health Dashboard CLI tool is available."
+msgstr "Vérifiez si une nouvelle version de l'outil CLI Dependency Health Dashboard est disponible."
+
+msgid "Connects to the GitHub repository to see if a newer release of the tool exists."
+msgstr "Se connecte au dépôt GitHub pour voir si une nouvelle version de l'outil existe."
+
+msgid "Optional: Suppress most terminal output for update check."
+msgstr "Optionnel : Supprimer la plupart des sorties du terminal pour la vérification des mises à jour."
+
+msgid "'npm audit' returned no output. Is npm installed and configured correctly in your project?"
+msgstr "'npm audit' n'a renvoyé aucune sortie. npm est-il installé et configuré correctement dans votre projet ?"
+
+msgid "'pip-audit' returned no output. Are dependencies installed in a virtual environment?"
+msgstr "'pip-audit' n'a renvoyé aucune sortie. Les dépendances sont-elles installées dans un environnement virtuel ?"
+
+msgid "'composer audit' returned no output. Are dependencies installed?"
+msgstr "'composer audit' n'a renvoyé aucune sortie. Les dépendances sont-elles installées ?"
+
+msgid "No version fetcher for ecosystem: %s. Skipping version checks."
+msgstr "Aucun récupérateur de version pour l'écosystème : %s. Saut de la vérification des versions."
+
+msgid "Could not parse version for '%s' (%s vs %s): %s. Using simple comparison."
+msgstr "Impossible d'analyser la version pour '%s' (%s vs %s) : %s. Utilisation d'une comparaison simple."
+
+msgid "Packaging library not found for accurate semantic versioning. Using simple comparison for '%s'."
+msgstr "Bibliothèque de 'packaging' introuvable pour une gestion sémantique précise des versions. Utilisation d'une comparaison simple pour '%s'."
+
+msgid "Error creating GitHub issue (HTTP %s): %s"
+msgstr "Erreur lors de la création du problème GitHub (HTTP %s) : %s"
+
+msgid "Attempting to create GitHub issue in %s/%s..."
+msgstr "Tentative de création d'un problème GitHub dans %s/%s..."
+
+msgid "Warning: Could not load translations for '%s'. Defaulting to English. Ensure 'locale/%s/LC_MESSAGES/dep_health.mo' exists."
+msgstr "Avertissement : Impossible de charger les traductions pour '%s'. Reversion à l'anglais. Assurez-vous que 'locale/%s/LC_MESSAGES/dep_health.mo' existe."

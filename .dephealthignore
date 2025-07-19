@@ -1,0 +1,17 @@
+# This file specifies packages to ignore during the dependency scan and vulnerability checks.
+# Each line represents a package name or a rule.
+# Lines starting with '#' are comments.
+
+# Ignore a specific package by its exact name (applies to all ecosystems)
+# my-internal-private-package
+
+# Ignore packages using a wildcard (applies to all ecosystems)
+# *-test-suite
+# @my-org/*
+
+# Ignore a package specific to an ecosystem
+# Prefix with 'nodejs:', 'python:', or 'php:'
+
+# nodejs:express        # Ignore 'express' only in Node.js projects
+# python:django-debug-toolbar # Ignore 'django-debug-toolbar' only in Python projects
+# php:monolog/monolog   # Ignore 'monolog/monolog' only in PHP projects

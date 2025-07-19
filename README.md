@@ -144,14 +144,3 @@ Before running a scan, it's good practice to check if you're using the latest ve
 
 ```bash
 python /path/to/dependency-health-dashboard/dep_health.py update-check
-
-
-
-## 📬 Connect with Me
-
-- 💻 GitHub: [@SmaRTy-Saini](https://github.com/SmaRTy-Saini)
-- 👔 LinkedIn: [smartysaini](https://www.linkedin.com/in/smartysaini/)
-- 🛒 Gumroad Store: [smartysaini.gumroad.com](https://smartysaini.gumroad.com)
-- 🐦 X (Twitter): [@SmaRTy__Saini](https://x.com/SmaRTy__Saini)
-
-If this tool helped you, feel free to ⭐ star the repo or share it! Contributions welcome.

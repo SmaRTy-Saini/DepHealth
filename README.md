@@ -60,7 +60,7 @@ You can get the tool by cloning its Git repository.
     (You can replace `~/Documents/Projects` with any path you prefer)
 3.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/dependency-health-dashboard.git](https://github.com/SmaRTy-Saini/DepHealth.git)
+    git clone [https://github.com/github.com/SmaRTy-Saini/DepHealth.git](https://github.com/SmaRTy-Saini/DepHealth.git)
     ```
  
 4.  **Navigate into the tool's directory**:
